@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* body {
+    color: black;
+} */
+
+h1 {
+    font-size: 6em;
+    margin: 0.5em 0;
+    color: rgb(37, 37, 37);
+}
+
+h2 {
+    font-size: 4em;
+    color: rgb(37, 37, 37);
+    margin-bottom: 0.1em;
+}
+
+#add-btn {
+    margin: 0;
+}
+#reset-btn {
+    background-color: red;
+    margin: 0;
+}
+
+#task-field {
+    font-size: 1.5em;
+    border: none;
+    text-decoration: underline;
+    color: rgb(65, 65, 65);
+    
+}
+
+#task-field:hover {
+    color: rgb(21, 21, 99);
+}
+
+button {
+    border: none;
+    padding: 0.625em;
+    background-color: rgb(13, 112, 58);
+    opacity: 0.8;
+    
+    margin: 0.15em;
+    border-radius: 10%;
+    color: white;
+}
+
+button:hover {
+    opacity: 1;
+    
+}
+
+li {
+    list-style: none;
+}
+
+ul > li > input {
+    font-size: 1.25em;
+   
+    
+}
